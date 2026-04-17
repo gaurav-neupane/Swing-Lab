@@ -5,6 +5,7 @@ export const colors = {
     primary100: "#171717",
     primary200: "#2a2a2a",
     primary300: "#7A7A7A",
+    primary400: '#B2B2B2',
     secondary: "#fe8c03",
     white: "#fff"  
 }

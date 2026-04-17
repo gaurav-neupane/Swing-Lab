@@ -7,7 +7,7 @@ import Typo from '@/components/Typo'
 import { UserIcon } from 'phosphor-react-native'
 import StreakCard from '@/components/StreakCard'
 
-const index = () => {
+const home = () => {
     return (
     <ScreenWrapper>
       <View style={styles.container}>
@@ -28,7 +28,7 @@ const index = () => {
   )
 }
 
-export default index
+export default home
 
 const styles = StyleSheet.create({
   container: {

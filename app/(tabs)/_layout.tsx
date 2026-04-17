@@ -8,7 +8,7 @@ import CustomTabs from '@/components/CustomTab'
 const _layout = () => {
     return (
         <Tabs tabBar={(props) => <CustomTabs {...props} />} screenOptions={{headerShown: false}}>
-       <Tabs.Screen name='index'/>     
+       <Tabs.Screen name='home'/>     
        <Tabs.Screen name='practice'/>     
        <Tabs.Screen name='analytics'/>     
        <Tabs.Screen name='profile'/>     
