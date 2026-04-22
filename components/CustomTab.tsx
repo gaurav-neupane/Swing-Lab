@@ -4,17 +4,16 @@ import { colors, spacingY } from '@/constants/theme';
 import { verticalScale } from '@/utils/styling';
 import {HouseIcon ,CricketIcon , ChartBarIcon , UserIcon} from 'phosphor-react-native';
 
-
 export default function CustomTab({ state, descriptors, navigation }: BottomTabBarProps) {
 
   const tabbarIcons: any = {
-    index: (isFocused: boolean) => (
+    home: (isFocused: boolean) => (
       <HouseIcon
         size={verticalScale(30)}
         color={isFocused ? colors.secondary : colors.primary300}
       />
     ),
-    practice: (isFocused: boolean) => (
+    session: (isFocused: boolean) => (
       <CricketIcon
         size={verticalScale(30)}
         color={isFocused ? colors.secondary : colors.primary300}

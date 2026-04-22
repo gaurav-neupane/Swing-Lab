@@ -31,6 +31,11 @@ export type accountOptionType = {
   routeName?: any;
 };
 
+export type sessionType = {
+  title: string,
+  timestamp: string,
+}
+
 export type TypoProps = {
   size?: number;
   color?: string;

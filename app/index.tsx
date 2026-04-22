@@ -9,7 +9,7 @@ const index = () => {
 
   useEffect(() => {
     setTimeout(() => {
-      router.push('/(auth)/welcome');
+      router.push('/(tabs)/home');
     },2000)
   }, [])
   

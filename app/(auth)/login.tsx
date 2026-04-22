@@ -8,6 +8,7 @@ import Input from "@/components/Input";
 import { verticalScale } from "@/utils/styling";
 import { AtIcon, LockIcon } from "phosphor-react-native";
 import Button from "@/components/Button";
+import { router } from "expo-router";
 
 const login = () => {
     const emailRef = useRef("");
@@ -39,7 +40,7 @@ const login = () => {
                     }
                   />
                   <Typo size={14} style={{ alignSelf: 'flex-end' }}>Forgot Password?</Typo> 
-                  <Button>
+                  <Button onPress={()=> router.push('/(tabs)/home')}>
                       <Typo fontWeight={'600'} color={colors.primary} >Log In</Typo>
                   </Button>  
               </View>
